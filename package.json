@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/larreadg/001_ej/issues"
   },
-  "homepage": "https://github.com/larreadg/001_ej#readme"
+  "homepage": "https://github.com/larreadg/001_ej#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
