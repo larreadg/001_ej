@@ -1,0 +1,38 @@
+.cat-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui;
+}
+
+
+.cat-main .cat-fact, .cat-main .cat-title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.cat-main .cat-title {
+    padding: 1rem 3rem;
+}
+
+.cat-main .cat-img {
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.cat-main .cat-errorFact {
+    color: rgb(144, 8, 60);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.cat-main .cat-refreshButton {
+    border-radius: 1rem;
+    box-shadow: none;
+    border: none;
+    background-color: #09f;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
